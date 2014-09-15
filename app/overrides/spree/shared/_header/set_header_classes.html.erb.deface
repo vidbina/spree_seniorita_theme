@@ -1,0 +1,4 @@
+<!--
+  set_attributes 'header'
+  attributes :class => 'header header_home'
+-->

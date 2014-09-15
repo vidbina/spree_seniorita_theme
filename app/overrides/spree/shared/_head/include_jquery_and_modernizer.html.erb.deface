@@ -1,0 +1,6 @@
+<!-- 
+  replace 'erb:contains("javascript_include_tag")' 
+-->
+<%= javascript_include_tag 'spree/frontend/jquery-1.10.2.min' %>
+<%= javascript_include_tag 'spree/frontend/jquery-ui' %>
+<%= javascript_include_tag 'spree/frontend/modernizr-2.5.3.min' %>

@@ -1,0 +1,14 @@
+<!--
+  set_attributes '#top-nav-bar'
+  attributes :class => "wrap-nav"
+-->
+
+<!--
+  set_attributes '#top-nav-bar ul#nav-bar'
+  attributes :class => 'nav'
+-->
+
+<!--
+  set_attributes '#top-nav-bar ul#nav-bar > li'
+  attributes :class => 'nav__item'
+-->

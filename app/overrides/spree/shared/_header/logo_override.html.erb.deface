@@ -1,0 +1,8 @@
+<!-- 
+  replace '#logo' 
+-->
+<div id="logo" class="logo" data-hook>
+  <a href="index.html" class="logo__title"><%= title %></a>
+  <%# <div class="logo__descr">collections</div> %>
+</div>
+

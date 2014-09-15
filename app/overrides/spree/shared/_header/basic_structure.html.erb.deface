@@ -1,0 +1,24 @@
+<!-- 
+  replace 'header' 
+-->
+<header id="header" class="row" data-hook>
+  <div class="container cf">
+    <figure id="logo" class="columns six" data-hook><%= logo %></figure>
+    <nav class="wrap-nav">
+      <ul class="nav">
+        <li class="nav__item">
+          <%= link_to Spree.t("collections"), products_path %>
+        </li>
+        <li class="nav__item">
+          <%= link_to Spree.t("contact"), '#' %>
+        </li>
+        <li class="nav__item">
+          <%= link_to Spree.t("about"), '#' %>
+        </li>
+      </ul>
+      <%#= render :partial => 'spree/shared/nav_bar' %>
+      <%#= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+    </nav>
+  </div>
+</header>
+<!-- end container -->

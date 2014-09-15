@@ -1,0 +1,1358 @@
+<!-- 
+  replace_contents 'body' 
+-->  
+<%= render partial: 'spree/shared/header' %>
+<% if false %>
+<header class="header header_home">
+  <div class="container cf">
+    <div class="logo">
+      <a href="index.html" class="logo__title"><%= title %></a>
+      <div class="logo__descr">fashion style</div>
+    </div>
+    <!-- end logo -->
+
+    <nav class="wrap-nav">
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="blog.html">Blog</a>
+        </li>
+        <li class="nav__item">
+          <a href="collection.html">Collection</a>
+
+          <nav class="sub-nav-bar sub-nav-bar_second">
+
+              <section class="sub-nav">
+                <h1 class="sub-nav__title">WOMEN</h1>
+
+                <ul class="ins-sub-nav">
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Looks</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Bags</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Shoes</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Acsesorias</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- end sub nav -->
+
+              <section class="sub-nav">
+                <h1 class="sub-nav__title">MEN</h1>
+
+                <ul class="ins-sub-nav">
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Looks</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Acsesorias</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- end sub nav -->
+
+              <section class="sub-nav">
+                <h1 class="sub-nav__title">CHILDREN</h1>
+                
+                <ul class="ins-sub-nav">
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Looks</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- end sub nav -->
+            </nav>
+            <!-- end sub nav bar -->
+        </li>
+        <li class="nav__item">
+          <a href="history.html">History</a>
+        </li>
+        <li class="nav__item">
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="nav__item">
+          <a href="shop.html">Shop</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end wrap nav -->
+  </div>
+  <!-- end container -->
+</header>
+<!-- end header -->
+
+<aside class="wrap-bar">
+  <div class="btn-controls">
+    <a href="#" class="btn-controls__scroll scroll-top">&uarr; Scroll to top</a>
+    <a href="#" class="btn-controls__hide">&larr; Hide menu</a>
+  </div>
+
+  <div class="open-bar">
+    <nav class="nav-bar">
+      <h1 class="nav-bar__title">Menu</h1>
+
+      <ul class="ins-nav-bar">
+        <li class="ins-nav-bar__item">
+          <a href="about.html" class="ins-nav-bar__link">About</a>
+        </li>
+
+        <li class="ins-nav-bar__item">
+          <a href="blog.html" class="ins-nav-bar__link">Blog</a>
+        </li>
+
+        <li class="ins-nav-bar__item ins-nav-bar__item_active">
+          <a href="collection.html" class="ins-nav-bar__link">Collection</a>
+            <nav class="sub-nav-bar">
+
+              <section class="sub-nav">
+                <h1 class="sub-nav__title">WOMEN</h1>
+
+                <ul class="ins-sub-nav">
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Looks</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Bags</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Shoes</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Acsesorias</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- end sub nav -->
+
+              <section class="sub-nav">
+                <h1 class="sub-nav__title">MEN</h1>
+
+                <ul class="ins-sub-nav">
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Looks</a>
+                  </li>
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Acsesorias</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- end sub nav -->
+
+              <section class="sub-nav">
+                <h1 class="sub-nav__title">CHILDREN</h1>
+                
+                <ul class="ins-sub-nav">
+                  <li class="ins-sub-home-nav">
+                    <a href="catalog.html" class="ins-sub-nav__link">Looks</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- end sub nav -->
+            </nav>
+            <!-- end sub nav bar -->
+        </li>
+
+        <li class="ins-nav-bar__item">
+          <a href="history.html" class="ins-nav-bar__link">History</a>
+        </li>
+
+        <li class="ins-nav-bar__item">
+          <a href="contact.html" class="ins-nav-bar__link">Contact</a>
+        </li>
+
+        <li class="ins-nav-bar__item">
+          <a href="shop.html" class="ins-nav-bar__link">Shop</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end nav-bar -->
+
+    <div class="bar-contacts">
+      <div class="bar-contacts__item">
+        <i class="bar-contacts__icon bar-contacts__icon_address"></i>
+        5512 Lorem Ipsum Vestibulum<br>Molesqu, Dolor Sit Amet,
+       </div>
+
+      <div class="bar-contacts__item">
+        <i class="bar-contacts__icon bar-contacts__icon_email"></i>
+        mail@compname.com
+      </div>
+
+      <div class="bar-contacts__item">
+        <i class="bar-contacts__icon bar-contacts__icon_phone"></i>
+        +1 800 450 6935
+      </div>
+    </div>
+    <!-- end inform contacts -->
+
+    <a href="collection.html" class="btn">View more</a>
+  </div>
+  <!-- end open bar -->
+</aside>
+
+<div class="wrap-main-slider">
+  <ul class="main-slider">
+    <li class="main-slider__item main-slider__item_first">
+      <div class="container">
+        <div class="ins-container">
+          <div class="slide-content">
+            <div class="slide-logo">
+              <h1 class="slide-logo__title"><%= title %></h1>
+              <div class="slide-logo__sub-title">fashion style</div>
+            </div>
+            <!-- end slide logo -->
+
+            <div class="slide-entry">
+              <header class="slide-entry__header">
+                <h1 class="slide-entry__title">What is Lorem Ipsum?</h1><br>
+                <div class="slider-entry__sub-title">Neque porro quisquam</div>
+              </header>
+              <!-- end slide entry header -->
+
+              <div class="slide-entry__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitAliquam vitae scelerisque magna. Donec in odio in purus elementum iaculis.</p>
+              </div>
+              <!-- end slide entry content -->
+
+              <footer class="slide-entry__footer">
+                <a href="catalog.html" class="btn">VIEW THE LOOKBOOK</a>
+                <a href="collection.html" class="btn">SHOP THE COLLECTION</a>
+              </footer>
+              <!-- entry slide entry footer -->
+            </div>
+            <!-- end slide entry -->
+          </div>
+          <!-- end slider content -->
+        </div>
+        <!-- end ins container -->
+      </div>
+      <!-- end container -->
+    </li>
+    <!-- end main slider -->
+
+    <li class="main-slider__item main-slider__item_second">
+      <div class="container">
+        <div class="ins-container">
+          <div class="slide-content">
+            <div class="slide-logo">
+              <h1 class="slide-logo__title"><%= title %></h1>
+              <div class="slide-logo__sub-title">fashion style</div>
+            </div>
+            <!-- end slide logo -->
+
+            <div class="slide-entry">
+              <header class="slide-entry__header">
+                <h1 class="slide-entry__title">Responsive Template</h1><br>
+                <div class="slider-entry__sub-title">SEO Optimized Code</div>
+              </header>
+              <!-- end slide entry header -->
+
+              <div class="slide-entry__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitAliquam vitae scelerisque magna. Donec in odio in purus elementum iaculis.</p>
+              </div>
+              <!-- end slide entry content -->
+
+              <footer class="slide-entry__footer">
+                <a href="catalog.html" class="btn">VIEW THE LOOKBOOK</a>
+                <a href="collection.html" class="btn">SHOP THE COLLECTION</a>
+              </footer>
+              <!-- entry slide entry footer -->
+            </div>
+            <!-- end slide entry -->
+          </div>
+          <!-- end slider content -->
+        </div>
+        <!-- end ins container -->
+      </div>
+      <!-- end container -->
+    </li>
+    <!-- end main slider -->
+  </ul>
+  <!-- end main slider -->
+</div>
+<!-- end wrap main slider -->
+
+<section class="wrap-collection">
+  <div class="container">
+    <div class="collection collection_home cf">
+      <header class="collection-header">
+        <div class="fashion-style fashion-style">fashion style</div>
+        <h1 class="collection-header__title">Senorita Colections</h1>
+        <div class="collection-header__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing<br>elitAliquam vitae scelerisque magna.</div>
+      </header>
+      <!-- end collection header -->
+
+      <div class="collection-categories collection-categories_home cf">
+        <figure class="collection-category">
+          <img src="http://placehold.it/359x475/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer wrap-overlay-layer_aligment">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <h1 class="collection-category__title">Wedding</h1>
+                <a href="catalog.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer aligment -->
+
+          <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="overlay-content">
+                  <div class="fashion-style">fashion style</div>
+                  <h1 class="overlay-content__title">Wedding</h1>
+                  <div class="overlay-content__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elitAliquam vitae scelerisque<br>magna.</p>
+                  </div>
+                  <a href="catalog.html" class="btn">View category</a>
+                </div>
+              </div>
+            </div>
+          </figcaption>
+          <!-- end wrap overlay layer content -->
+        </figure>
+        <!-- end collection category -->
+
+        <figure class="collection-category">
+          <img src="http://placehold.it/359x475/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer wrap-overlay-layer_aligment">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <h1 class="collection-category__title">Portraits</h1>
+                <a href="catalog.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer aligment -->
+
+          <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="overlay-content">
+                  <div class="fashion-style">fashion style</div>
+                  <h1 class="overlay-content__title">Portraits</h1>
+                  <div class="overlay-content__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elitAliquam vitae scelerisque<br>magna.</p>
+                  </div>
+                  <a href="catalog.html" class="btn">View category</a>
+                </div>
+              </div>
+            </div>
+          </figcaption>
+          <!-- end wrap overlay layer content -->
+        </figure>
+        <!-- end collection category -->
+
+        <figure class="collection-category">
+          <img src="http://placehold.it/359x475/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer wrap-overlay-layer_aligment">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <h1 class="collection-category__title">Fashion</h1>
+                <a href="catalog.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer aligment -->
+
+          <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="overlay-content">
+                  <div class="fashion-style">fashion style</div>
+                  <h1 class="overlay-content__title">Fashion</h1>
+                  <div class="overlay-content__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elitAliquam vitae scelerisque<br>magna.</p>
+                  </div>
+                  <a href="catalog.html" class="btn">View category</a>
+                </div>
+              </div>
+            </div>
+          </figcaption>
+          <!-- end wrap overlay layer content -->
+        </figure>
+        <!-- end collection category -->
+      </div>
+      <!-- end collection categories -->
+    </div>
+    <!-- end collection / home-->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end wrap collection -->
+
+<section class="wrap-about">
+  <div class="container">
+    <div class="about about_home">
+      <h1 class="about__main-title container-title_size_big">About us</h1>
+      <div class="about__entry">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard<br>dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+      </div>
+
+      <div class="about-items about-items_home_padding cf">
+        <figure class="about-item">
+          <img src="http://placehold.it/270x372/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="about-item__btns">
+                  <a href="about.html" class="about-item__btn">Our studio</a>
+                  <a href="about.html" class="about-item__btn about-item__btn_hidden">About us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer -->
+        </figure>
+        <!-- end about item -->
+
+        <figure class="about-item">
+          <img src="http://placehold.it/270x372/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="about-item__btns">
+                  <a href="about.html" class="about-item__btn">Our studio</a>
+                  <a href="about.html" class="about-item__btn about-item__btn_hidden">About us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer -->
+        </figure>
+        <!-- end about item -->
+
+        <figure class="about-item">
+          <img src="http://placehold.it/270x372/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="about-item__btns">
+                  <a href="about.html" class="about-item__btn">Our studio</a>
+                  <a href="about.html" class="about-item__btn about-item__btn_hidden">About us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer -->
+        </figure>
+        <!-- end about item -->
+
+        <figure class="about-item">
+          <img src="http://placehold.it/270x372/dccfc0" alt="">
+
+          <div class="wrap-overlay-layer">
+            <div class="overlay-layer">
+              <div class="ins-overlay-layer">
+                <div class="about-item__btns">
+                  <a href="about.html" class="about-item__btn">Our studio</a>
+                  <a href="about.html" class="about-item__btn about-item__btn_hidden">About us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end wrap overlay layer -->
+        </figure>
+        <!-- end about item -->
+      </div>
+      <!-- end about items -->
+    </div>
+    <!-- end about -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end wrap about -->
+
+<section class="wrap-team wrap-team_home tabs cf">
+  <div class="container">
+    <ul class="people cf">
+      <li class="people__item">
+        <a href="#tab-1">
+          <figure class="person">
+            <div class="person__thumb">
+              <img src="http://placehold.it/82x82/dccfc0" alt="">
+            </div>
+            <!-- end person thumb -->
+
+            <figcaption class="person__content">
+              <h1 class="person__name">Carre</h1>
+              <div class="person__post">fashion lable</div>
+            </figcaption>
+            <!-- end person content -->
+          </figure>
+          <!-- end person -->
+        </a>
+        <!-- end tab 1 -->
+      </li>
+      <!-- end people item -->
+
+      <li class="people__item">
+        <a href="#tab-2">
+          <figure class="person">
+            <div class="person__thumb">
+              <img src="http://placehold.it/82x82/dccfc0" alt="">
+            </div>
+            <!-- end person thumb -->
+
+            <figcaption class="person__content">
+              <h1 class="person__name">Gaspar  Gloves</h1>
+              <div class="person__post">fashion lable</div>
+            </figcaption>
+            <!-- end person content -->
+          </figure>
+          <!-- end person -->
+        </a>
+        <!-- end tab 2 -->
+      </li>
+      <!-- end people item -->
+
+      <li class="people__item">
+        <a href="#tab-3">
+          <figure class="person">
+            <div class="person__thumb">
+              <img src="http://placehold.it/82x82/dccfc0" alt="">
+            </div>
+            <!-- end person thumb -->
+
+            <figcaption class="person__content">
+              <h1 class="person__name">Eddie  Borgo</h1>
+              <div class="person__post">fashion lable</div>
+            </figcaption>
+            <!-- end person content -->
+          </figure>
+          <!-- end person -->
+        </a>
+        <!-- end tab 3 -->
+      </li>
+      <!-- end people item -->
+    </ul>
+    <!-- end people -->
+
+    <div id="tab-1" class="person-more person-more_home">
+      <div class="person-more__photo">
+        <img src="http://placehold.it/496x538/dccfc0" alt="">
+      </div>
+      <!-- end person more photo -->
+
+      <div class="person-more__content cf">
+        <h1 class="person-more__main-title">Featured<br>Contributors</h1>
+
+        <div class="person-more__gallery">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+        </div>
+        <!-- end person gallery -->
+
+        <a href="#" class="person-more__label">Fashion label</a>
+
+        <article class="person-entry">
+          <h1 class="person-entry__title">Looks from the couturier to Peeta and Haymitch.</h1>
+
+          <div class="person-entry__content">
+            <p>When Peeta Mallark's stylist needed a cool, asymmetrical leather jacket for a stop on the Victory Tour, she turned to Cerre. </p>
+          </div>
+          <!-- end person entry content -->
+
+          <footer class="person-entry__footer">
+            <div class="group-btns">
+              <a href="#" class="group-btn">
+                192
+                <i class="group-btn__icon group-btn__icon_heart"></i>
+              </a>
+
+              <a href="#" class="group-btn">
+                <i class="group-btn__icon group-btn__icon_share"></i>
+                Share
+              </a>
+            </div>
+            <!-- person group btns -->
+          </footer>
+          <!-- end person entry footer -->
+        </article>
+        <!-- end person entry -->
+      </div>
+      <!-- end person more content -->
+    </div>
+    <!-- end person more / tab 1 -->
+
+    <div id="tab-2" class="person-more person-more_home">
+      <div class="person-more__photo">
+        <img src="http://placehold.it/496x538/dccfc0" alt="">
+      </div>
+      <!-- end person more photo -->
+
+      <div class="person-more__content cf">
+        <h1 class="person-more__main-title">Tab 2</h1>
+
+        <div class="person-more__gallery">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+        </div>
+        <!-- end person gallery -->
+
+        <a href="#" class="person-more__label">Fashion label</a>
+
+        <article class="person-entry">
+          <h1 class="person-entry__title">Looks from the couturier to Peeta and Haymitch.</h1>
+
+          <div class="person-entry__content">
+            <p>When Peeta Mallark's stylist needed a cool, asymmetrical leather jacket for a stop on the Victory Tour, she turned to Cerre. </p>
+          </div>
+          <!-- end person entry content -->
+
+          <footer class="person-entry__footer">
+            <div class="group-btns">
+              <a href="#" class="group-btn">
+                192
+                <i class="group-btn__icon group-btn__icon_heart"></i>
+              </a>
+
+              <a href="#" class="group-btn">
+                <i class="group-btn__icon group-btn__icon_share"></i>
+                Share
+              </a>
+            </div>
+            <!-- person group btns -->
+          </footer>
+          <!-- end person entry footer -->
+        </article>
+        <!-- end person entry -->
+      </div>
+      <!-- end person more content -->
+    </div>
+    <!-- end person more / tab 2 -->
+
+    <div id="tab-3" class="person-more person-more_home">
+      <div class="person-more__photo">
+        <img src="http://placehold.it/496x538/dccfc0" alt="">
+      </div>
+      <!-- end person more photo -->
+
+      <div class="person-more__content cf">
+        <h1 class="person-more__main-title">Tab 3</h1>
+
+        <div class="person-more__gallery">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+          <img src="http://placehold.it/89x87/dccfc0" alt="" class="person-more__gallery-item">
+        </div>
+        <!-- end person gallery -->
+
+        <a href="#" class="person-more__label">Fashion label</a>
+
+        <article class="person-entry">
+          <h1 class="person-entry__title">Looks from the couturier to Peeta and Haymitch.</h1>
+
+          <div class="person-entry__content">
+            <p>When Peeta Mallark's stylist needed a cool, asymmetrical leather jacket for a stop on the Victory Tour, she turned to Cerre. </p>
+          </div>
+          <!-- end person entry content -->
+
+          <footer class="person-entry__footer">
+            <div class="group-btns">
+              <a href="#" class="group-btn">
+                192
+                <i class="group-btn__icon group-btn__icon_heart"></i>
+              </a>
+
+              <a href="#" class="group-btn">
+                <i class="group-btn__icon group-btn__icon_share"></i>
+                Share
+              </a>
+            </div>
+            <!-- person group btns -->
+          </footer>
+          <!-- end person entry footer -->
+        </article>
+        <!-- end person entry -->
+      </div>
+      <!-- end person more content -->
+    </div>
+    <!-- end person more / tab 3 -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end wrap team -->
+
+<section class="portfolio">
+  <div class="container">
+    <h1 class="container-title container-title_size_big">Portfolio</h1>
+
+    <div class="portfolio-items cf">
+      <figure class="portfolio-item portfolio-item_big">
+        <img src="http://placehold.it/539x327/dccfc0" alt="">
+
+        <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+          <div class="overlay-layer">
+            <div class="ins-overlay-layer">
+              <div class="overlay-content">
+                <div class="fashion-style">fashion style</div>
+                <h1 class="overlay-content__title">Spring Summer 2015</h1>
+                <a href="collection.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+        <!-- end wrap overlay layer content -->
+      </figure>
+      <!-- end portfolio item -->
+
+      <figure class="portfolio-item portfolio-item_big">
+        <img src="http://placehold.it/539x327/dccfc0" alt="">
+
+        <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+          <div class="overlay-layer">
+            <div class="ins-overlay-layer">
+              <div class="overlay-content">
+                <div class="fashion-style">fashion style</div>
+                <h1 class="overlay-content__title">Spring Summer 2015</h1>
+                <a href="collection.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <!-- end portfolio item -->
+
+      <figure class="portfolio-item">
+        <img src="http://placehold.it/270x327/dccfc0" alt="">
+
+        <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+          <div class="overlay-layer">
+            <div class="ins-overlay-layer">
+              <div class="overlay-content">
+                <div class="fashion-style">fashion style</div>
+                <h1 class="overlay-content__title">Spring Summer 2015</h1>
+                <a href="collection.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <!-- end portfolio item -->
+
+      <figure class="portfolio-item">
+        <img src="http://placehold.it/270x327/dccfc0" alt="">
+
+        <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+          <div class="overlay-layer">
+            <div class="ins-overlay-layer">
+              <div class="overlay-content">
+                <div class="fashion-style">fashion style</div>
+                <h1 class="overlay-content__title">Spring Summer 2015</h1>
+                <a href="collection.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <!-- end portfolio item -->
+
+      <figure class="portfolio-item">
+        <img src="http://placehold.it/270x327/dccfc0" alt="">
+
+        <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+          <div class="overlay-layer">
+            <div class="ins-overlay-layer">
+              <div class="overlay-content">
+                <div class="fashion-style">fashion style</div>
+                <h1 class="overlay-content__title">Spring Summer 2015</h1>
+                <a href="collection.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <!-- end portfolio item -->
+
+      <figure class="portfolio-item">
+        <img src="http://placehold.it/270x327/dccfc0" alt="">
+
+        <figcaption class="wrap-overlay-layer wrap-overlay-layer_content">
+          <div class="overlay-layer">
+            <div class="ins-overlay-layer">
+              <div class="overlay-content">
+                <div class="fashion-style">fashion style</div>
+                <h1 class="overlay-content__title">Spring Summer 2015</h1>
+                <a href="collection.html" class="btn">View category</a>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <!-- end portfolio item -->
+    </div>
+    <!-- end portfolio items -->
+
+    <div class="portfolio-video cf">
+      <div class="portfolio-video__item">
+        <iframe src="//www.youtube.com/embed/qMxX-QOV9tI" allowfullscreen></iframe>
+      </div>
+
+      <div class="portfolio-video__item">
+        <iframe src="//www.youtube.com/embed/aSZVYZTze74" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- end portfolio video -->
+  </div>
+  <!-- end container -->
+</section>
+<!-- end wrap portfolio -->
+
+<div class="container">
+  <div class="blog-cols">
+      <div class="blog-col">
+        <h1 class="container-title">Latest news</h1>
+
+        <div class="blog-posts">
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION AUTUMN WINTER<br>2014 - 2015</a>
+              </h1>
+
+              <time datetime="2014-09-22">Saturday, February 22, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Rich fabrics and precious prints defi ne a lavish wardrobe, but at the same time romantic, played on the alternation of soft silhouettes that caress the body and forms of inspiration couture.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION AUTUMN WINTER<br>2014 - 2015</a>
+              </h1>
+
+              <time datetime="2014-03-07">Wednesday, March 7, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Rich fabrics and precious prints defi ne a lavish wardrobe, but at the same time romantic, played on the alternation of soft silhouettes that caress the body and forms of inspiration couture.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION AUTUMN WINTER<br>2014 - 2015</a>
+              </h1>
+
+              <time datetime="2014-03-07">Wednesday, March 7, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Rich fabrics and precious prints defi ne a lavish wardrobe, but at the same time romantic, played on the alternation of soft silhouettes that caress the body and forms of inspiration couture.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+        </div>
+        <!-- end vlog posts -->
+      </div>
+      <!-- end blog col -->
+
+      <div class="blog-col">
+        <h1 class="container-title">Latest events</h1>
+
+        <div class="blog-posts">
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">Eleanor Abbagnato GENNY DRESSES IN VENICE FOR THE NEW YEAR'S CONCERT</a>
+              </h1>
+
+              <time datetime="2014-01-05">Sunday, January 5, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Una sofisticata eleganza, che trova le sue radici nel gusto tutto italiano del ben vestire, definisce la collezione Genny per la primavera/estate 2014. L’attenzione è rivolta su abiti femminili, che esaltano il corpo, senza mai costringerlo, sottolineando il punto vita e seguendone le forme con naturalezza.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION SPRING SUMMER 2013</a>
+              </h1>
+
+              <time datetime="2014-09-25">Tuesday, September 25, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Rhythm "urban tribal" for the first collection Genny for the revitalization of the historic Italian brand. A selection of fine garments, inspired by the work of American photographer Peter Beard outlines the profile of an intense and sensual femininity: a collection mood minimal-deluxe fabrics and unexpected details.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION SPRING SUMMER 2013</a>
+              </h1>
+
+              <time datetime="2014-09-25">Tuesday, September 25, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Rhythm "urban tribal" for the first collection Genny for the revitalization of the historic Italian brand. A selection of fine garments, inspired by the work of American photographer Peter Beard outlines the profile of an intense and sensual femininity: a collection mood minimal-deluxe fabrics and unexpected details.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+        </div>
+        <!-- end vlog posts -->
+      </div>
+      <!-- end blog col -->
+
+      <div class="blog-col blog-col_wide-block">
+        <h1 class="container-title">Press</h1>
+
+        <div class="blog-posts">
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION AUTUMN WINTER<br>2014 - 2015</a>
+              </h1>
+
+              <time datetime="2014-02-22">Saturday, February 22, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>Rich fabrics and precious prints defi ne a lavish wardrobe.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION FALL WINTER 2012-2013</a>
+              </h1>
+
+              <time datetime="2014-03-07">Wednesday, March 7, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>American painter, an expression of a woman's intense and fragile at the same time.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+
+          <article class="blog-post blog-post_second-type cf">
+            <header class="blog-post__header">
+              <h1 class="blog-post__title">
+                <a href="single.html">GENNY COLLECTION FALL WINTER 2012-2013</a>
+              </h1>
+
+              <time datetime="2014-03-07">Wednesday, March 7, 2014</time>
+            </header>
+            <!-- end blog post header -->
+
+            <div class="blog-post__content cf">
+              <img src="http://placehold.it/343x206/dccfc0" alt="">
+              <p>American painter, an expression of a woman's intense and fragile at the same time.</p>
+            </div>
+             <!-- end blog post content -->
+
+            <footer class="blog-post__footer cf">
+              <div class="group-btns">
+                <a href="#" class="group-btn">
+                  192
+                  <i class="group-btn__icon group-btn__icon_heart"></i>
+                </a>
+
+                <a href="#" class="group-btn">
+                  <i class="group-btn__icon group-btn__icon_share"></i>
+                    Share
+                </a>
+              </div>
+              <!-- person group btns -->
+
+              <div class="social">
+                <a href="#" target="_blank" class="social-btn social-btn_twitter">Twitter</a>
+                <a href="#" target="_blank" class="social-btn social-btn_tumblr">Trumblr</a>
+                <a href="#" target="_blank" class="social-btn social-btn_facebook">Facebook</a>
+              </div>
+              <!-- edn social -->
+            </footer>
+            <!-- end blog post footer -->
+          </article>
+          <!-- end blog post -->
+        </div>
+        <!-- end vlog posts -->
+      </div>
+      <!-- end blog col -->
+  </div>
+  <!-- end blog cols -->
+</div>
+<!-- end container -->
+
+<footer class="footer footer_home">
+  <div class="footer-top">
+    <div class="container">
+      <div class="wrap-share cf">
+        <span>Share</span>
+
+        <div class="share-btns cf">
+          <div class="share-btn">
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-type="button_count"></div>
+          </div>
+
+          <div class="share-btn">
+            <a href="//ru.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" >
+              <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" alt="" /></a>
+          </div>
+
+          <div class="share-btn">
+            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+          </div>
+
+          <div class="share-btn">
+            <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @twitterapi</a>
+          </div>
+
+          <div class="share-btn">
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+          </div>
+        </div>
+        <!-- end share btns -->
+      </div>
+      <!-- end share -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end footer top -->
+
+  <div class="footer-middle">
+    <div class="container">
+      <div class="fashion-style">fashion style</div>
+      <h1 class="footer-middle__title">Senorita Colections</h1>
+
+      <form class="subscribe" action="#" method="get">
+        <input type="text" placeholder="Name:" class="subscribe__field">
+        <button type="submit" class="subscribe__btn">Subscribe</button>
+      </form>
+      <!-- end subscribe -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end footer middle -->
+
+  <div class="footer-bottom">
+    <div class="container cf">
+      <div class="footer-left-col">
+        <nav class="wrap-second-nav">
+          <ul class="second-nav">
+            <li class="second-nav__item second-nav__item_active">
+              <a href="about.html">About us</a>
+            </li>
+
+            <li class="second-nav__item">
+              <a href="blog.html">Blog</a>
+            </li>
+
+            <li class="second-nav__item">
+              <a href="collection.html">Collection</a>
+            </li>
+
+            <li class="second-nav__item">
+              <a href="history.html">History</a>
+            </li>
+
+            <li class="second-nav__item">
+              <a href="contact.html">Contacts</a>
+            </li>
+
+            <li class="second-nav__item">
+              <a href="shop.html">Shop</a>
+            </li>
+          </ul>
+          <!-- end second nav -->
+        </nav>
+        <!-- end wrap second nav -->
+      </div>
+      <!-- end footer left col -->
+
+      <div class="footer-middle-col">
+        <div class="contacts">
+          <div class="contacts__item">
+            <i class="contacts__icon contacts__icon_address"></i>
+            5512 Lorem Ipsum Vestibulum Molesqu, Dolor Sit Amet, Egestas 666 69
+          </div>
+
+          <div class="contacts__item">
+            <i class="contacts__icon contacts__icon_email"></i>
+            mail@compname.com
+          </div>
+
+          <div class="contacts__item">
+            <i class="contacts__icon contacts__icon_phone"></i>
+            +1 800 450 6935
+          </div>
+        </div>
+        <!-- end contacts -->
+      </div>
+      <!-- edn footer middle col -->
+
+      <div class="footer-right-col">
+        <div class="sing-up">
+          <a href="#">Newsletter</a>/
+          <a href="#">Sing up</a>
+        </div>
+        <!-- end sing up -->
+
+        <div class="copy">&copy; 2014  All rights reserved. <strong>Senorita</strong></div>  
+        <!--  edn copy -->
+      </div>
+      <!-- edn footer right col -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end footer bottom -->
+</footer>
+<!-- end footer -->
+<% end %>
+  
+<script async src="http://www.assets.pinterest.com/js/pinit.js"></script>
+<%= javascript_include_tag 'spree/frontend/masonry.pkgd.min' %>
+<%= javascript_include_tag 'spree/frontend/jquery.bxslider.min' %>
+<%= javascript_include_tag 'spree/frontend/jquery.fitvids' %>
+<!-- end libs -->
+  
+<%= javascript_include_tag 'spree/frontend/scripts' %>
+<!-- end custom -->
