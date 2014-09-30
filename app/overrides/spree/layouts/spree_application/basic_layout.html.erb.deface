@@ -2,6 +2,9 @@
   replace_contents 'body' 
 -->  
 <%= render partial: 'spree/shared/header' %>
+<%= flash_messages %>
+<%= yield %>
+<%= render partial: 'spree/shared/footer' %>
 <% if false %>
 <header class="header header_home">
   <div class="container cf">

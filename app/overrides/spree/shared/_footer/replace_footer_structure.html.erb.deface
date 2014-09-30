@@ -1,0 +1,110 @@
+<!--
+  replace '#footer'
+-->
+<footer class="footer footer_home">
+  <div class="footer-top">
+    <div class="container">
+      <div class="wrap-share cf">
+      <span>Share</span>
+      
+      <div class="share-btns cf">
+      <div class="share-btn">
+      <div fb-iframe-plugin-query="app_id=&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;locale=en_US&amp;sdk=joey&amp;type=button_count" fb-xfbml-state="rendered" class="fb-share-button fb_iframe_widget" data-href="https://developers.facebook.com/docs/plugins/" data-type="button_count"><span style="vertical-align: bottom; width: 94px; height: 20px;"><iframe class="" src="http://www.facebook.com/v2.0/plugins/share_button.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FZEbdHPQfV3x.js%3Fversion%3D41%23cb%3Df13ea12b04e3fe8%26domain%3Dlocalhost%26origin%3Dhttp%253A%252F%252Flocalhost%253A9292%252Ff88f13322d4d0a%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;locale=en_US&amp;sdk=joey&amp;type=button_count" style="border: medium none; visibility: visible; width: 94px; height: 20px;" title="fb:share_button Facebook Social Plugin" scrolling="no" allowtransparency="true" name="f2278747054b4c8" frameborder="0" height="1000px" width="1000px"></iframe></span></div>
+      </div>
+      
+      <div class="share-btn">
+      <a data-pin-config="none" class="PIN_1410773717821_pin_it_button_20 PIN_1410773717821_pin_it_button_en_20_gray PIN_1410773717821_pin_it_button_inline_20 PIN_1410773717821_pin_it_none_20" data-pin-log="button_pinit_bookmarklet" data-pin-href="http://ru.pinterest.com/pin/create/button/"><span id="PIN_1410773717821_pin_count_0" class="PIN_1410773717821_hidden"><i></i></span></a>
+      </div>
+      
+      <div class="share-btn">
+      <iframe style="width: 107px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" src="http://platform.twitter.com/widgets/tweet_button.1410542722.html#_=1410773717682&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Flocalhost%3A9292%2Findex.html&amp;size=m&amp;text=Senorita&amp;url=http%3A%2F%2Flocalhost%3A9292%2Findex.html" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe>
+      </div>
+      
+      <div class="share-btn">
+      <iframe style="width: 120px; height: 20px;" data-twttr-rendered="true" title="Twitter Follow Button" class="twitter-follow-button twitter-follow-button" src="http://platform.twitter.com/widgets/follow_button.1410542722.html#_=1410773717685&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=twitterapi&amp;show_count=false&amp;show_screen_name=true&amp;size=m" allowtransparency="true" scrolling="no" id="twitter-widget-1" frameborder="0"></iframe>
+      </div>
+      
+      <div class="share-btn">
+      <div fb-iframe-plugin-query="action=like&amp;app_id=&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"><span style="vertical-align: bottom; width: 85px; height: 20px;"><iframe class="" src="http://www.facebook.com/v2.0/plugins/like.php?action=like&amp;app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FZEbdHPQfV3x.js%3Fversion%3D41%23cb%3Df3c6054069555f4%26domain%3Dlocalhost%26origin%3Dhttp%253A%252F%252Flocalhost%253A9292%252Ff88f13322d4d0a%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: medium none; visibility: visible; width: 85px; height: 20px;" title="fb:like Facebook Social Plugin" scrolling="no" allowtransparency="true" name="f1dacbde9cb2ec8" frameborder="0" height="1000px" width="1000px"></iframe></span></div>
+      </div>
+      </div>
+      <!-- end share btns -->
+      </div>
+      <!-- end share -->
+    </div>
+  </div>
+
+  <div class="footer-middle">
+    <div class="container">
+      <div class="fashion-style">collectibles &amp; antiques</div>
+      <h1 class="footer-middle__title">Redesired Colections</h1>
+      
+      <form class="subscribe" action="#" method="get">
+      <input placeholder="Name:" class="subscribe__field" type="text">
+      <button type="submit" class="subscribe__btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container cf">
+      <div class="footer-left-col">
+        <nav class="wrap-second-nav">
+          <ul class="second-nav">
+            <li class="second-nav__item second-nav__item_active">
+              <a href="about.html">About us</a>
+            </li>
+            
+            <li class="second-nav__item">
+              <a href="blog.html">Blog</a>
+            </li>
+            
+            <li class="second-nav__item">
+              <a href="collection.html">Collection</a>
+            </li>
+            
+            <li class="second-nav__item">
+              <a href="history.html">History</a>
+            </li>
+            
+            <li class="second-nav__item">
+              <a href="contact.html">Contacts</a>
+            </li>
+            
+            <li class="second-nav__item">
+              <a href="shop.html">Shop</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="footer-middle-col">
+        <div class="contacts">
+          <div class="contacts__item">
+            <i class="contacts__icon contacts__icon_address"></i>
+            5512 Lorem Ipsum Vestibulum Molesqu, Dolor Sit Amet, Egestas 666 69
+          </div>
+          
+          <div class="contacts__item">
+            <i class="contacts__icon contacts__icon_email"></i>
+            mail@compname.com
+          </div>
+          
+          <div class="contacts__item">
+            <i class="contacts__icon contacts__icon_phone"></i>
+            +1 800 450 6935
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-right-col">
+        <div class="sing-up"> <%# TODO: rename class to sign-up %>
+          <a href="#">Newsletter</a>/
+          <a href="#">Sign up</a>
+        </div>
+      
+        <div class="copy">&copy; 2014  All rights reserved. <strong>Redesired</strong></div>  
+      </div>
+    </div>
+  </div>
+</footer>
