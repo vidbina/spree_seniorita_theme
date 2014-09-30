@@ -1,0 +1,46 @@
+<!--
+  replace 'ul#products'
+-->
+<% if products.any? %>
+<div id="products" class="catalog-items" data-hook>
+  <% products.each do |product| %>
+    <div class="catalog-item">
+      <img src="http://placehold.it/325x415/dccfc0" alt="">
+      <header class="catalog-item__header">
+          <h1 class="catalog-item__title"><%= truncate(product.name, :length => 50) %></h1>
+          <div class="catalog-item__price"><%= display_price(product) %></div>
+      </header>
+     
+      <div class="catalog-item__content">
+     
+      </div>
+     
+      <footer class="catalog-item__footer">
+          <div class="catalog-item__btns">
+              <!--<a href="ins-catalog.html" class="btn catalog-item__btn">Add to cart</a>-->
+              <%= link_to "Details", product_url(product, :taxon_id => @taxon.try(:id)), class: 'btn catalog-item__btn', title: product.name  %>
+          </div>
+      <!--
+          <div class="catalog-item__btns">
+              <a href="#" class="btn catalog-item__btn_second-type">Add to Wishlist</a>
+              <a href="#" class="btn catalog-item__btn_second-type">Add to Compare</a>
+          </div>
+      -->
+      </footer>
+    </div>
+  <% end %>
+  <% if false %>
+    <% url = product_url(product, :taxon_id => @taxon.try(:id)) %>
+    <li id="product_<%= product.id %>" class="columns three <%= cycle("alpha", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+      <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
+        <div class="product-image">
+          <%= link_to small_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
+        </div>
+        <%= link_to truncate(product.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => product.name %>
+        <span class="price selling" itemprop="price"><%= display_price(product) %></span>
+      <% end %>
+    </li>
+  <% end %>
+  <% reset_cycle("classes") %>
+</div>
+<% end %>

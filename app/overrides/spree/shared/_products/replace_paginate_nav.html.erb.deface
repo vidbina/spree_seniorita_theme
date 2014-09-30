@@ -1,0 +1,7 @@
+<!--
+  replace '.pagination'
+-->
+<footer class="view-more">
+  <a href="ins-catalog.html" class="view-more__btn btn">View more</a>
+  <i class="view-more__arrow">↓</i>
+</footer>

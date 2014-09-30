@@ -1,0 +1,6 @@
+<!--
+  surround 'ul#products'
+-->
+<div class="container container_main">
+  <%= render_original %>
+</div >
