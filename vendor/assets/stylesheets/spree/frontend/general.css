@@ -662,7 +662,7 @@ img {
 .group-btn__icon {
   display: inline-block;
   vertical-align: middle;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
 }
 .group-btn__icon_heart {
   background-position: -150px 0;
@@ -682,7 +682,7 @@ img {
   width: 30px;
   height: 30px;
   text-indent: -9999px;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
 }
 .social-btn_twitter {
   background-position: 0 -100px;
@@ -914,7 +914,7 @@ select {
   margin-top: -8px;
   width: 20px;
   height: 20px;
-  background: url(images/icons.png) no-repeat -250px -50px;
+  background: url(icons.png) no-repeat -250px -50px;
 }
 /* end wrap nav */
 /* end header */
@@ -932,7 +932,7 @@ select {
 }
 .heading {
   padding-bottom: 2.7%;
-  background: url(images/bg/heading.png) no-repeat 28% bottom;
+  background: url(bg/heading.png) no-repeat 28% bottom;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -1000,7 +1000,7 @@ select {
   margin-top: -8px;
   width: 16px;
   height: 17px;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
 }
 .ins-pagination:after {
   content: "";
@@ -1086,7 +1086,7 @@ select {
   background-size: cover;
 }
 .heading-container_second-type .heading {
-  background: url(images/bg/heading_second-type.png) no-repeat 28% bottom;
+  background: url(bg/heading_second-type.png) no-repeat 28% bottom;
   padding-bottom: 3.8%;
 }
 .heading-container_second-type .heading .container p {
@@ -1282,7 +1282,7 @@ select {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
 }
 .person-contacts__icon_email {
   background-position: -50px 0;
@@ -1317,7 +1317,7 @@ select {
   padding-bottom: .64935064935%;
 }
 .tabs_second-type .person-more {
-  background: #f6f4f2 url(images/bg/contact-tab.png) no-repeat right center;
+  background: #f6f4f2 url(bg/contact-tab.png) no-repeat right center;
 }
 .tabs_second-type .person-more__header,
 .tabs_second-type .person-more__post {
@@ -1495,7 +1495,7 @@ select {
 }
 .footer-middle .container {
   padding: 2.9% 0 2.5%;
-  background: url(images/bg/footer-middle.png) no-repeat right bottom;
+  background: url(bg/footer-middle.png) no-repeat right bottom;
 }
 .footer-middle .fashion-style {
   font-size: 1.92857142857em;
@@ -1600,7 +1600,7 @@ select {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
   width: 16px;
 }
 .contacts__icon_address {
@@ -2004,7 +2004,7 @@ select {
 .contact-info__icon {
   position: absolute;
   left: 0;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
 }
 .contact-info__icon_phone {
   bottom: 0;
@@ -2096,7 +2096,7 @@ select {
   margin-top: -4px;
   width: 16px;
   height: 11px;
-  background: url(images/icons.png) no-repeat -50px 0;
+  background: url(icons.png) no-repeat -50px 0;
 }
 /* end write btn */
 .contact-btn-toggle {
@@ -2246,7 +2246,7 @@ select {
   width: 33.2096474954%;
   height: 100%;
   padding: 3.24675324675% 2.5974025974% 1.76252319109%;
-  background: #f6f4f2 url(images/bg/history-year.png) no-repeat right top;
+  background: #f6f4f2 url(bg/history-year.png) no-repeat right top;
 }
 .history-year__content p {
   color: #818181;
@@ -2764,7 +2764,7 @@ select {
 .bar-contacts__icon {
   display: block;
   margin: 0 auto 5px auto;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
   opacity: .34;
 }
 .bar-contacts__icon_address {
@@ -2803,7 +2803,7 @@ select {
   text-indent: -9999px;
   width: 43px;
   height: 43px;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -2886,7 +2886,7 @@ select {
 }
 .ins-container {
   height: 100%;
-  background: url(images/bg/main-slider-container.png) no-repeat left center;
+  background: url(bg/main-slider-container.png) no-repeat left center;
 }
 .slide-content {
   width: 51.4842300557%;
@@ -3014,7 +3014,7 @@ select {
 /* end wrap collection */
 .wrap-about {
   padding: 2.5% 0 4%;
-  background: #eee9e4 url(images/bg/about-home.png) no-repeat 10% center;
+  background: #eee9e4 url(bg/about-home.png) no-repeat 10% center;
 }
 .about_home {
   margin-bottom: 0;
@@ -3204,7 +3204,7 @@ select {
   text-indent: 9999px;
   width: 15px;
   height: 32px;
-  background: url(images/icons.png) no-repeat;
+  background: url(icons.png) no-repeat;
 }
 .item-pager .slider-arrow .bx-prev {
   left: 0;
