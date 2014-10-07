@@ -5,7 +5,8 @@
 <div id="products" class="catalog-items" data-hook>
   <% products.each do |product| %>
     <div class="catalog-item">
-      <img src="http://placehold.it/325x415/dccfc0" alt="">
+      <% url = product_url(product, :taxon_id => @taxon.try(:id)) %>
+      <%= link_to small_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
       <header class="catalog-item__header">
           <h1 class="catalog-item__title"><%= truncate(product.name, :length => 50) %></h1>
           <div class="catalog-item__price"><%= display_price(product) %></div>
